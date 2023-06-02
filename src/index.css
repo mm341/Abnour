@@ -12,6 +12,21 @@
     margin: 0;
 }
 
+@layer components {
+  .input {
+  @apply  focus:outline-none  text-[15px]   px-5   h-[35px]
+  w-[97%] border-[3px] border-green-400 rounded-[7px]
+  }
+
+  .parent {
+      @apply flex xs:flex-row flex-col xs:gap-0 gap-[7px]  text-main bg-white justify-between xs:items-center items-start    w-full
+  }
+ .label{
+  @apply lg:w-[15%] xs:w-[17%] w-[35%]   text-[16px] text-main
+ }
+}
+
+
 
 
 
